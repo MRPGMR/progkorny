@@ -20,4 +20,10 @@ public class PerfumeServiceImpl implements PerfumeService{
     public List<Perfume> perfumes() {
         return perfumeRepository.findAll();
     }
+    @Override
+    public String deletePerfume(Integer id) {
+        perfumeRepository.deleteById(id);
+        return "Parfüm eltávolítva!";
+    }
 }
+

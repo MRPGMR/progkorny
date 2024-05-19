@@ -7,4 +7,6 @@ import java.util.List;
 public interface PerfumeService {
     public Perfume saveParfume(Perfume perfume);
     public List<Perfume> perfumes();
+    public String deletePerfume (Integer id);
+
 }

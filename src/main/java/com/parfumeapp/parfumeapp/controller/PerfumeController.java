@@ -25,5 +25,8 @@ public class PerfumeController {
 
     }
 
-
+    @DeleteMapping("/del/{id}")
+    public String deletePerfume(@PathVariable Integer id){
+        return perfumeService.deletePerfume(id);
+    }
 }
