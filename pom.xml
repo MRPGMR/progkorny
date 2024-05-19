@@ -18,11 +18,12 @@
 
 	<properties>
 		<java.version>17</java.version>
+		<JAVA_HOME>/home/jdk-17</JAVA_HOME>
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
 		<spring-modulith.version>1.1.4</spring-modulith.version>
 			<maven.compiler.source>1.8</maven.compiler.source>
 			<maven.compiler.target>1.8</maven.compiler.target>
-	
+		<maven.compiler.release>5</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 
