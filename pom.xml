@@ -80,9 +80,16 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			
+
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Package Registry</name>
+			<url>https://maven.pkg.github.com/MRPGMR/progkorny</url>
+		</repository>
+	</distributionManagement>
 
 
 </project>
