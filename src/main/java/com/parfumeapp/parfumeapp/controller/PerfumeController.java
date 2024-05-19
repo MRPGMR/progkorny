@@ -4,6 +4,7 @@ import com.parfumeapp.parfumeapp.model.Perfume;
 import com.parfumeapp.parfumeapp.service.PerfumeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.w3c.dom.ls.LSOutput;
 
 import java.util.List;
 
@@ -23,4 +24,6 @@ public class PerfumeController {
         return perfumeService.perfumes();
 
     }
+
+
 }
