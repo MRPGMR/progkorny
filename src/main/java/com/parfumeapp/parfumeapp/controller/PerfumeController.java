@@ -29,4 +29,8 @@ public class PerfumeController {
     public String deletePerfume(@PathVariable Integer id){
         return perfumeService.deletePerfume(id);
     }
-}
+
+    @PutMapping("/update")
+    public Perfume updatePerfume(@RequestBody Perfume perfume){
+        return perfumeService.updatePerfume(perfume);
+    }}

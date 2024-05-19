@@ -25,5 +25,9 @@ public class PerfumeServiceImpl implements PerfumeService{
         perfumeRepository.deleteById(id);
         return "Parfüm eltávolítva!";
     }
+    @Override
+    public Perfume updatePerfume(Perfume perfume) {
+        return perfumeRepository.save(perfume);
+    }
 }
 
