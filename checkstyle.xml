@@ -5,9 +5,8 @@
     <property name="severity" value="error"/>
 
     <module name="TreeWalker">
-        <module name="AvoidStarImport"/>
+        <!-- Egyéb ellenőrzések -->
         <module name="JavadocMethod"/>
-
     </module>
 
     <module name="LineLength">
