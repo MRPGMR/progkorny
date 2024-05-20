@@ -1,4 +1,4 @@
-/*package com.parfumeapp.parfumeapp.controller;
+package com.parfumeapp.parfumeapp.controller;
 
 import com.parfumeapp.parfumeapp.model.Perfume;
 import com.parfumeapp.parfumeapp.service.PerfumeService;
@@ -100,4 +100,3 @@ public class PerfumeControllerTest {
         }
     }
 }
-*/
