@@ -109,10 +109,19 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub Package Registry</name>
+			<name>GitHub Repository</name>
 			<url>https://maven.pkg.github.com/MRPGMR/progkorny</url>
 		</repository>
 	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>github</id>
+			<name>GitHub Repository</name>
+			<url>https://maven.pkg.github.com/MRPGMR/progkorny</url>
+		</repository>
+	</repositories>
+
 
 
 </project>
