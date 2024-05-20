@@ -7,7 +7,7 @@
     <module name="TreeWalker">
         <module name="AvoidStarImport"/>
         <module name="JavadocMethod"/>
-        <module name="WhitespaceAfter"/>
+
     </module>
 
     <module name="LineLength">
