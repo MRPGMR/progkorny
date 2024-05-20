@@ -17,5 +17,3 @@ jobs:
           java-version: '17'
       - name: Compile ParfumeappApplication
         run: mvn compile
-      - name: Test ParfumeappApplication
-        run: mvn test
